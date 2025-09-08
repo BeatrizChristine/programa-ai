@@ -1,15 +1,34 @@
+# Arquivos de projeto Android/Gradle
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
+
+# Android Studio config
+/.idea/
+!.idea/codeStyles
+!.idea/runConfigurations
+
+# Build
 /build
+/app/build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Arquivos de saída
+*.apk
+*.aab
+
+# Keystore (nunca versionar!)
+*.jks
+*.keystore
+
+# Firebase/Google Services (ideal manter fora do repositório)
+google-services.json
