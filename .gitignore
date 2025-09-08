@@ -30,5 +30,5 @@ Thumbs.db
 *.jks
 *.keystore
 
-# Firebase/Google Services (ideal manter fora do repositório)
+# Firebase/Google Services 
 google-services.json
