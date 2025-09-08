@@ -19,5 +19,6 @@ Aplicativo e site educativo voltados para ensino de programação e acessibilida
 3. Configure `google-services.json` (Firebase).  
 4. Build & Run.
 
-## Licença
-MIT © Beatriz Christine
+## 📄 Licença
+Este projeto foi desenvolvido por **Beatriz Christine Azevedo Batista**  
+e está licenciado sob a **Licença MIT** — veja o arquivo [LICENSE](LICENSE) para mais detalhes.
