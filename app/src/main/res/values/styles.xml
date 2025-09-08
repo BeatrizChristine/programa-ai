@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomCalendarView" parent="@android:style/Widget.CalendarView">
+        <item name="android:dateTextAppearance">@style/CustomCalendarViewDayText</item>
+        <item name="android:weekDayTextAppearance">@style/CustomCalendarViewDayText</item>
+    </style>
+
+    <style name="CustomCalendarViewDayText" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/white</item> <!-- Cor do texto dos dias -->
+    </style>
+
+    <style name="PurpleAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/roxo_med</item> <!-- Define a cor de destaque para roxo -->
+    </style>
+
+</resources>

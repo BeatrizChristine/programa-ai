@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    tools:context=".SingUpActivity">
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="114dp"
+        android:background="@drawable/logoicon"
+        android:layout_marginTop="40dp">
+    </ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+            <TextView
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sourcecode"
+                android:text="Cadastro"
+                android:textAlignment="center"
+                android:textColor="@color/roxo_med"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/singup_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sourcecode"
+                android:hint="Nome"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/singup_userName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/ic_username"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sourcecode"
+                android:hint="UserName"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+
+            <EditText
+                android:id="@+id/singup_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sourcecode"
+                android:hint="Email"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/singup_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sourcecode"
+                android:hint="Senha"
+                android:drawableRight="@drawable/ic_pass_invisi"
+                android:inputType="textPassword"
+                android:paddingRight="10dp"
+                android:longClickable="false"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/singup_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/background_button"
+                android:backgroundTint="@color/roxo_med"
+                android:fontFamily="@font/sourcecode"
+                android:text="Cadastrar"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/loginReadingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/sourcecode"
+                android:padding="10dp"
+                android:text="Já possui cadastro? Faça o Login"
+                android:textColor="@color/roxo_med"
+                android:gravity="center"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

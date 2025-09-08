@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".assuntos.Fluxo_assunto_texto">
+
+    <LinearLayout
+        android:id="@+id/linear_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backbutton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/iconback" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/nome_assunto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/sourcecode"
+            android:text="Como Usar o Fluxograma:"
+            android:textAlignment="center"
+            android:textColor="@color/roxo_med"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/texto_assunto1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/sourcecode"
+                    android:justificationMode="inter_word"
+                    android:text=""
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imagem1"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/iniciofim_fluxo" />
+
+                <TextView
+                    android:id="@+id/texto_assunto2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/sourcecode"
+                    android:justificationMode="inter_word"
+                    android:text=""
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imagem2"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/processamento_fluxo" />
+
+                <TextView
+                    android:id="@+id/texto_assunto3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/sourcecode"
+                    android:justificationMode="inter_word"
+                    android:text=""
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imagem3"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/pre_proces_fluxo" />
+
+                <TextView
+                    android:id="@+id/texto_assunto4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/sourcecode"
+                    android:justificationMode="inter_word"
+                    android:text=""
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imagem4"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/decisao_fluxo" />
+
+                <TextView
+                    android:id="@+id/texto_assunto5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/sourcecode"
+                    android:justificationMode="inter_word"
+                    android:text=""
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imagem5"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/entradadados_fluxo" />
+
+                <TextView
+                    android:id="@+id/texto_assunto6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/sourcecode"
+                    android:justificationMode="inter_word"
+                    android:text=""
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imagem6"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/saidadados_fluxo" />
+
+                <TextView
+                    android:id="@+id/texto_assunto7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/sourcecode"
+                    android:justificationMode="inter_word"
+                    android:text=""
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imagem7"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/repeticao_fluxo" />
+
+                <TextView
+                    android:id="@+id/texto_assunto8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/sourcecode"
+                    android:justificationMode="inter_word"
+                    android:text=""
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imagem8"
+                    android:layout_width="150dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/exemplo1_fluxo" />
+
+                <TextView
+                    android:id="@+id/texto_assunto9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/sourcecode"
+                    android:justificationMode="inter_word"
+                    android:text=""
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imagem9"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/exemplo2_fluxo" />
+
+                <TextView
+                    android:id="@+id/texto_assunto10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/sourcecode"
+                    android:justificationMode="inter_word"
+                    android:text=""
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
